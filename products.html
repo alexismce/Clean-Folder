@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products   
+ - Radiomobile</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <button id="themeToggle" class="btn btn-secondary">Toggle Theme</button>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container">
+              <a class="navbar-brand" href="index.html">Radiomobile</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ms-auto"> 
+                      <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="about.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="products.html">Products</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="contact.html">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="map.html">Resources</a>
+                      </li>
+                  </ul>
+                  
+                  </div>
+              </div>
+          </div>
+      </nav>
+  </header>  
+  <section class="products">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Dispatch Solutions</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <img src="images/product-software.jpg" class="card-img-top" alt="Dispatch Software">
+            <div class="card-body">
+              <h5 class="card-title">DispatchPro Software</h5>
+              <p class="card-text">Our flagship dispatch software, DispatchPro, streamlines communication, optimizes
+                workflows, and enhances situational awareness for efficient and effective emergency response.</p>
+              <ul class="list-unstyled">
+                <li>Real-time tracking and mapping</li>
+                <li>Integrated communication tools</li>
+                <li>Customizable dashboards and reporting</li>
+                <li>Mobile app for field personnel</li>
+              </ul>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                data-bs-target="#dispatchProModal">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img src="images/product-hardware.jpg" class="card-img-top" alt="Rugged Hardware">
+            <div class="card-body">
+              <h5 class="card-title">DuraComm Hardware</h5>
+              <p class="card-text">Our rugged hardware is built to withstand the harshest environments, ensuring reliable communication and access to critical information in any situation.</p>
+              <ul class="list-unstyled">
+                <li>Ruggedized laptops, tablets, and smartphones</li>
+                <li>Enhanced GPS and satellite connectivity</li>
+                <li>Long-lasting battery life</li>
+                <li>MIL-STD-810G certified for durability</li>
+              </ul>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                data-bs-target="#duraCommModal">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="modal fade" id="dispatchProModal" tabindex="-1" aria-labelledby="dispatchProModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="dispatchProModalLabel">DispatchPro Software</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">   
+
+              <img src="images/product-software-detail.jpg" alt="Dispatch Software Detail" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+              <h3>Key Features</h3>
+              <ul>
+                <li>Real-time vehicle tracking and mapping</li>
+                <li>Integrated communication tools (voice, text, data)</li>
+                <li>Customizable dashboards and reporting</li>
+                <li>Mobile app for field personnel</li>
+                <li>Automated workflows and alerts</li>
+                <li>CAD integration and interoperability</li>
+              </ul>
+              <h3>Benefits</h3>
+              <ul>
+                <li>Improved response times</li>
+                <li>Enhanced situational awareness</li>
+                <li>Increased efficiency and productivity</li>
+                <li>Reduced operational costs</li>
+                <li>Improved safety for personnel</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button   
+ type="button" class="btn btn-primary">Request   
+ a Demo</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="duraCommModal" tabindex="-1" aria-labelledby="duraCommModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="duraCommModalLabel">DuraComm Hardware</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">   
+
+              <img src="images/product-hardware-detail.jpg" alt="Rugged Hardware Detail" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+              <h3>Key Features</h3>
+              <ul>
+                <li>Ruggedized laptops, tablets, and smartphones</li>
+                <li>Enhanced GPS and satellite connectivity</li>
+                <li>Long-lasting battery life</li>
+                <li>MIL-STD-810G certified for durability</li>
+                <li>Sunlight-readable displays</li>
+                <li>Water and dust resistant</li>
+              </ul>
+              <h3>Benefits</h3>
+              <ul>
+                <li>Reliable communication in any environment</li>
+                <li>Increased durability and longevity</li>
+                <li>Improved safety for personnel</li>
+                <li>Reduced downtime and maintenance costs</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button   
+ type="button" class="btn btn-primary">Contact Us</button>
+        </div>
+      </div>
+    </div>
+  </div>   
+
+
+
+  <footer class="py-4 bg-light">
+    </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
